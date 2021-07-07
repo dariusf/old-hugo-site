@@ -72,7 +72,7 @@ Aug 2013 -- Dec 2015
 <p class="position">Programmer</p>
 Dec 2013 -- Feb 2014
 
-- Worked on [Getzapp](https://www.youtube.com/watch?v=HjXklXXprAA), an educational puzzle game for browsers. It was released commercially.
+- Worked on [Getzapp](https://www.youtube.com/watch?v=HjXklXXprAA), an educational puzzle game. Released commercially.
 
 <p class="company">Singapore University of Technology and Design, Game Innovation Programme</p>
 <p class="position">Intern (Programmer)</p>
