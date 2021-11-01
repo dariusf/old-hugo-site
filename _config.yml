@@ -26,7 +26,6 @@ twitter_username: fariusdoo
 
 # Build settings
 markdown: kramdown
-mathjax: true
 theme: minima
 permalink: /:title
 plugins:
