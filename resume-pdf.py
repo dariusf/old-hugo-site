@@ -1,20 +1,19 @@
 #!/usr/bin/env python
 
-import yaml
 import re
-from weasyprint import HTML, CSS
 import os
 
-with open('_config.yml') as f:
-  url = yaml.load(f, Loader=yaml.SafeLoader)['url']
-
-with open('_site/resume/index.html', 'r') as f, open('/tmp/resume.html', 'w') as g:
+with open('resume.md', 'r') as f, open('/tmp/resume.md', 'w') as g:
   t = f.read()
-  t = re.sub(r'<header[^>]*>.*</header>', '', t, flags=re.DOTALL)
-  t = re.sub(r'<footer[^>]*>.*</footer>', '', t, flags=re.DOTALL)
-  t = re.sub(r'http://localhost:4000', url, t, flags=re.DOTALL)
+  t = re.sub(r'## Summary.*?##', r'##', t, flags=re.DOTALL)
+  t = re.sub(r'<p class="company">(.*?)</p>', r'**\1**\n\\', t, flags=re.DOTALL)
+  t = re.sub(r'<p class="position">(.*?)</p>', r'_\1_\n\\', t, flags=re.DOTALL)
+  t = re.sub(r'<details.*</details>', '', t, flags=re.DOTALL)
+  t = re.sub(r'<div class="bio">.*?</div>', '', t, flags=re.DOTALL)
+  t = re.sub(r'<br/>', r'\n\\', t)
+  t = re.sub(r'##', r'#', t)
+  print(t)
   g.write(t)
 
-HTML('/tmp/resume.html').render(stylesheets=[CSS('_site/assets/main.css')]).write_pdf('/tmp/resume.pdf')
-
+os.system('pandoc /tmp/resume.md -o /tmp/resume.pdf --template eisvogel')
 os.system('open /tmp/resume.pdf')

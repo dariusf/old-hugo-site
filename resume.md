@@ -2,6 +2,11 @@
 layout: page
 title: Resume
 permalink: /resume/
+
+# for eisvogel
+header-left: Darius Foo
+header-right: darius.foo.tw@gmail.com
+footer-left: ''
 ---
 
 <style>
