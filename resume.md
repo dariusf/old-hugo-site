@@ -32,11 +32,7 @@ permalink: /resume/
   {{ site.url }}<br/>
 </div>
 
-# Summary
-
-I'm all about finding principled ways to solve problems and making people around me more productive.
-
-# Professional Experience
+## Professional Experience
 
 <p class="company">National University of Singapore</p>
 <p class="position">PhD Student</p>
@@ -55,6 +51,10 @@ May 2016 -- Jul 2020
     + Sapling, a web app which optimizes story assignments for SAFe PI Planning using answer set programming.
     + SGL, a domain-specific graph query language able to represent security vulnerabilities.
 
+<details markdown="1" style="padding-bottom: 1em;">
+
+  <summary>Past</summary>
+  
 <p class="company">Experimental Systems & Technology Lab, Ministry of Education Singapore</p>
 <p class="position">Software Engineering Intern</p>
 Jun 2015 -- Aug 2015
@@ -80,13 +80,17 @@ May 2013 -- Aug 2013
 
 - Developed [Tower of Myr: Crystal Stream](https://www.youtube.com/watch?v=1nM9Xh58SYU), a turn-based strategy game for Android. Implemented major parts of the gameplay and user interface.
 
-# Education
+---
+
+</details>
+
+## Education
 
 **BComp (Computer Science)**<br/>
 National University of Singapore<br/>
 2012 -- 2016
 
-# Skills
+## Skills
 
 - OCaml, Haskell, Java, Python, Bash, JS
 - Spring Boot, React
