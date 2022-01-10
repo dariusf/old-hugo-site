@@ -28,10 +28,11 @@ google_scholar_id: 5x9STk4AAAAJ
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: jekyll/minima
 permalink: /:title
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,3 +43,6 @@ exclude:
 # disable smart quotes
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
+
+# minima:
+#   skin: dark
