@@ -38,3 +38,7 @@ permalink: /:title
 # to override the default setting.
 exclude:
 - 'slides/*.md'
+
+# disable smart quotes
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
