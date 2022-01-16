@@ -86,6 +86,9 @@ equations:
 - eq: '\mathit{SAT} + \mathit{Theory\ Solvers} = \mathit{SMT}'
   src: https://ece.uwaterloo.ca/~agurfink/ece750t29f18/assets/pdf/06_FOL_SMT.pdf
   title: 'First Order Logic (FOL) and Satisfiability Modulo Theories (SMT)'
+- eq: '\mathit{GADTs} = \mathit{Algebraic\ Datatypes} + \mathit{Existential\ Types} + \mathit{Equality\ Constraints}'
+  src: https://stackoverflow.com/a/15730144
+  title: 'Polymorphic recursion in OCaml: return values'
 ---
 
 {% for eq in page.equations %}
