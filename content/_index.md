@@ -1,21 +1,11 @@
-# A match made in heaven
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
+I'm a PhD student at the National University of Singapore.
 
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
+My primary research interests are programming languages and formal verification, currently of concurrent, distributed, and effectful programs.
+I also dabble in static analysis, logic/constraint/answer set programming, and game development.
 
-[Go to the original bear blog](https://bearblog.dev/).
-
----
-
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
-
-**Use this theme, and find out!**
-
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
+On weekends, I sing with [The Crescendos](https://www.instagram.com/the_crescendos/) and [Acappella Anonymous](https://www.instagram.com/acappellaanonymous/).
 
 ---
 
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
-
-Each page is ~5kb, and you can **host your blog yourself**.
+{{< social >}}
