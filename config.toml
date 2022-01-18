@@ -52,9 +52,20 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [markup]
   [markup.highlight]
-    style = 'monokai'
+    # https://bwiggs.com/posts/2021-08-03-hugo-syntax-highlight-dark-light/
+    noClasses = false
+
+    # This is on so code blocks without a language are styled by Chroma.
+    # Alternatives are setting language type to "text" everywhere or copying
+    # stuff from the generated CSS files into our styles.html. Weirdness is
+    # certainly possible with automatic detection, however, in practice very
+    # few languages support this. Also, explicitly disambiguating with "text"
+    # works.
+    # https://github.com/alecthomas/chroma/search?q=setAnalyser
+    guessSyntax = true
 
   [markup.goldmark.renderer]
+    # Enables inline html
     unsafe= true
 
 [blog]
