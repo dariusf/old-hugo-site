@@ -1,5 +1,5 @@
 
-baseURL = "https://example.com"
+baseURL = "https://dariusf.github.io"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -7,7 +7,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "Darius Foo"
 author = "Darius Foo"
-copyright = "Copyright © 2022, Darius."
+copyright = "Copyright © 2022, Darius Foo."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -22,7 +22,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Hugo + Bear = :heart:"
+  description = "PhD student at NUS, doing research in programming languages and formal verification"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -32,12 +32,12 @@ ignoreErrors = ["error-disable-taxonomy"]
   # services like Twitter or Slack want to generate a preview of a link to your site.
   # See https://gohugo.io/templates/internal#twitter-cards and
   # https://gohugo.io/templates/internal#open-graph.
-  images = ["images/share.png"]
+  images = ["images/favicon.png"]
 
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Hugo ʕ•ᴥ•ʔ Bear"
+  title = "Darius Foo"
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
   # You can turn it off, but we would really appreciate if you don’t :-).

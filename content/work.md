@@ -6,7 +6,7 @@ weight = 2
 
 # Work
 
-- [Resume](/resume.pdf)
+My [resume](/resume.pdf) and [GitHub](https://www.github.com/dariusf).
 
 ## Talks
 

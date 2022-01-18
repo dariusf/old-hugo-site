@@ -12,6 +12,8 @@ weight = 1
 - [SGL: A DSL for large-scale analysis of open-source code](https://asankhaya.github.io/pdf/Security-Graph-Language.pdf), [SecDev 2018](https://doi.org/10.1109/SecDev.2018.00016) ([slides](/sgl-slides.pdf))
 - [Higher-Order Debugging and Logging for OCaml](https://github.com/dariusf/ppx_polyprint/raw/master/report.pdf), 2016 ([slides](https://github.com/dariusf/ppx_polyprint/raw/master/slides.pdf))
 
+[Google Scholar](https://scholar.google.com/citations?user=5x9STk4AAAAJ)
+
 ## Teaching
 
 - [CS2103/T Software Engineering](https://nus-cs2103-ay2122s2.github.io/website/), 2022
