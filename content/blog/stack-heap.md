@@ -69,5 +69,3 @@ generate(stack=stack, heap=[b, bc, ac, metaspace], extra='''
 ```
 
 Code available [here](https://gist.github.com/dariusf/e9b1515f59e6011d566cb6acf13f45a8).
-
-Hopefully this is useful if you have a similar class.

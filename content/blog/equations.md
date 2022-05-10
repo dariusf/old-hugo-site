@@ -1,5 +1,5 @@
 ---
-title: "A collection of informal equations"
+title: "A collection of equations"
 date: 2021-12-19 00:22:38 +0800
 math: true
 equations:
@@ -24,16 +24,16 @@ equations:
 - eq: '\mathit{Property\ Tests} + \mathit{Contracts} = \mathit{Integration\ Tests}'
   src: https://www.hillelwayne.com/post/pbt-contracts/
   title: "Property Tests + Contracts = Integration Tests"
-- a: niklaus wirth's famous equations
-  eq: '\mathit{Compiler}(\mathit{Program}) = \mathit{Algorithms} + \mathit{Data\ Structures}'
+- eq: '\mathit{Compiler}(\mathit{Program}) = \mathit{Algorithms} + \mathit{Data\ Structures}'
   src: https://youtu.be/iwOFK6M1gG8?t=1256
-  title: 'Next-Paradigm Programming Languages: What Will They Look Like and What Changes Will They Bring? (Wirth)'
+  # title: 'Next-Paradigm Programming Languages: What Will They Look Like and What Changes Will They Bring? (Wirth)'
+  title: 'Next-Paradigm Programming Languages (Wirth)'
 - eq: '\mathit{Clingo} = \mathit{ASP} + \mathit{Control}'
   src: https://pdfs.semanticscholar.org/7e36/0e1476243d1aea516e99474a7fa533f3307f.pdf
   title: 'Clingo = ASP + Control : Preliminary Report'
 - eq: '\mathit{Assets} = \mathit{Liabilities} + \mathit{Equity}'
   src: https://corporatefinanceinstitute.com/resources/knowledge/accounting/balance-sheet/
-  title: Balance Sheet - Definition &amp; Examples
+  title: Balance Sheet - Definition & Examples
 - eq: '\mathit{Programming} = \mathit{Structure} + \mathit{Efficiency}'
   src: https://discuss.ocaml.org/t/what-is-the-use-of-continuation-passing-style-cps/4491/17
   title: 'What is the use of Continuation Passing Style (CPS)?'
@@ -88,6 +88,27 @@ equations:
 - eq: '\mathit{GADTs} = \mathit{Algebraic\ Datatypes} + \mathit{Existential\ Types} + \mathit{Equality\ Constraints}'
   src: https://stackoverflow.com/a/15730144
   title: 'Polymorphic recursion in OCaml: return values'
+- eq: '\mathit{Hoare\ triples} + \mathit{Monadic\ types} = \mathit{Hoare\ Type\ Theory}'
+  src: https://ilyasergey.net/pnp-2014/HTT-lecture.pdf
+  title: 'Verification of Imperative Programs in Hoare Type Theory'
+- eq: '\mathit{DSL\ design} = \mathit{Art} + \mathit{Lots\ of\ iterations}'
+  src: https://www.youtube.com/watch?v=FhQrKmZkid0&t=391s
+  title: 'FlashMeta: A Framework for Inductive Program Synthesis'
+- eq: '\mathit{Inverse\ Semantics} + \mathit{Skolemization} = \mathit{Witness\ Function}'
+  src: https://youtu.be/FhQrKmZkid0?t=682
+  title: 'FlashMeta: A Framework for Inductive Program Synthesis'
+- eq: 'k\text{-}\mathit{FAIR} = k\text{-}\mathit{LIVENESS} + \mathit{FAIR}'
+  src: https://www.cs.utexas.edu/users/hunt/FMCAD/FMCAD18/papers/paper45.pdf
+  title: 'Revisiting SAT-based Liveness Algorithms'
+- eq: '\mathit{Cyclic\ proof} = \mathit{pre}\text{-}\mathit{proof}\ \mathcal{P} + \mathit{soundness\ condition}\ \mathcal{S}(\mathcal{P})'
+  src: http://www0.cs.ucl.ac.uk/staff/J.Brotherston/slides/imperial_04_08.pdf
+  title: 'An introduction to cyclic proof'
+- eq: '\mathit{coinduction} = \mathit{use\ of\ finality\ for\ coalgebras}'
+  src: http://www.cs.ru.nl/~bart/PAPERS/JR.pdf
+  title: 'A Tutorial on (Co)Algebras and (Co)Induction'
+- eq: '\mathit{Query} = \mathit{operation} + \mathit{pattern}'
+  src: https://youtu.be/S7GtVSgtNsE?t=616
+  title: 'Adaptable Traces for Program Explanations'
 ---
 
 {{< equations eqs=.Params.equations >}}
