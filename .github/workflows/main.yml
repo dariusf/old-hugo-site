@@ -1,30 +1,32 @@
-name: CI
-on: push
+name: Hugo
+
+on:
+  push:
+    branches:
+      - master # Set a branch to deploy
+  pull_request:
+
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Update theme
-        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-        run: git submodule update --init --recursive
-
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.91.2"
+          hugo-version: "latest"
+          # extended: true
 
       - name: Build
-        run: hugo
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          # external_repository: dariusf/test1.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          # keep_files: true
-          user_name: dariusf
-          user_email: darius.foo.tw@gmail.com
