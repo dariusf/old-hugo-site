@@ -16,12 +16,14 @@ weight = 1
 
 ## Teaching
 
-- [CS2103/T Software Engineering](https://nus-cs2103-ay2122s2.github.io/website/), 2022
-- [CS2030S Programming Methodology II](https://nus-cs2030s.github.io/2021-s2/), 2021
-- [CS2102 Database Systems](https://nusmods.com/modules/CS2102/database-systems), 2020
+- [CS1101S Programming Methodology](https://www.comp.nus.edu.sg/~cs1101s/), 2022
+- [CS2103T Software Engineering](https://nus-cs2103-ay2122s2.github.io/website/), 2022
+- [CS2030S Programming Methodology II](https://nus-cs2030s.github.io/2021-s2/), 2021 <!--, ([slides](/slides/cs2030s)) -->
+- [CS2102 Database Systems](https://nusmods.com/modules/CS2102/database-systems), 2020 ([slides](/slides/relational-algebra-sql))
 - [CS3281/CS3282 Software Engineering in Live Projects](https://nus-cs3281.github.io/website/admin/callForApplications.html), 2016
 - [CS1101S Programming Methodology](https://www.comp.nus.edu.sg/~cs1101s/), 2013-2015
 
 ## Service
 
 - [ESOP 2022 AE](https://etaps.org/user-profile/archive/53-etaps-2022/491-esop-2022-artifact-evaluation)
+- Subreviewer: POPL 2022, CAV 2022
