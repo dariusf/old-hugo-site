@@ -1,10 +1,10 @@
 ---
-title: "Watching the screen for changes in macOS"
+title: "Watching the screen for changes (macOS)"
 date: 2021-12-02 17:25:08 +0800
 ---
 
 Sometimes all you need is for your computer to tell you when something on the screen changes.
-Maybe you're invigilating an exam over Zoom and your eyes are drying out from staring at the chat window, which for some reason doesn't have any notification settings.
+Maybe you're invigilating an exam over Zoom and your eyes are drying out from staring at the chat window, which does not (and probably will never) have any notification settings.
 
 # Rectangles
 
