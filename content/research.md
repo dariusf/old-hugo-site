@@ -1,10 +1,12 @@
 +++
 title = "Research"
 menu = "main"
-weight = 1
+weight = 2
 +++
 
-# Research
+<!-- # Research -->
+
+## Publications
 
 - [Automating Continuous Planning in SAFe](https://asankhaya.github.io/pdf/Automating-Continuous-Planning-in-SAFe.pdf), [RCoSE 2020](https://doi.org/10.1145/3387940.3391536) ([slides](/sapling-slides.pdf))
 - [The Dynamics of Software Composition Analysis](https://arxiv.org/abs/1909.00973), [ASE LBR 2019](https://2019.ase-conferences.org/track/ase-2019-Late-Breaking-Results) ([poster](https://asankhaya.github.io/pdf/The-Dynamics-of-Software-Composition-Analysis-Poster.pdf))

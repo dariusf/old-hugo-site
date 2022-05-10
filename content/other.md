@@ -1,10 +1,10 @@
 +++
 title = "Other"
 menu = "main"
-weight = 3
+weight = 4
 +++
 
-# Other
+<!-- # Other -->
 
 ## Games
 

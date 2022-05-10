@@ -1,10 +1,10 @@
 +++
 title = "Work"
 menu = "main"
-weight = 2
+weight = 3
 +++
 
-# Work
+## Work
 
 [Resume](/resume), [GitHub](https://www.github.com/dariusf).
 
