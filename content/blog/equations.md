@@ -109,6 +109,12 @@ equations:
 - eq: '\mathit{Query} = \mathit{operation} + \mathit{pattern}'
   src: https://youtu.be/S7GtVSgtNsE?t=616
   title: 'Adaptable Traces for Program Explanations'
+- eq: '\mathit{word} + \mathit{word} = \mathit{compound\ word}'
+  src: https://youtu.be/Iro19GB6fH8?t=38
+  title: 'Why Chinese HATES 1 Syllable Words'
+- eq: '\mathit{Consistency} = \mathit{joy}'
+  src: https://code.visualstudio.com/blogs/2022/05/18/dev-container-cli#_consistency-joy
+  title: 'The dev container CLI'
 ---
 
 {{< equations eqs=.Params.equations >}}
