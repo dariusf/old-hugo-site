@@ -27,5 +27,6 @@ weight = 2
 
 ## Service
 
-- [ESOP 2022 AE](https://etaps.org/user-profile/archive/53-etaps-2022/491-esop-2022-artifact-evaluation)
+- Artifact evaluation committee: [ESOP 2022](https://etaps.org/user-profile/archive/53-etaps-2022/491-esop-2022-artifact-evaluation)
 - Subreviewer: POPL 2022, CAV 2022
+- Student volunteer: PLDI 2021, SPLASH 2022
