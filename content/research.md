@@ -8,6 +8,7 @@ weight = 2
 
 ## Publications
 
+- [Tracing OCaml Programs](/tracing-ocaml22.pdf), [OCaml 2022](https://icfp22.sigplan.org/details/ocaml-2022-papers/2/Tracing-OCaml-Programs) ([slides](/tracing-ocaml22-slides.pdf))
 - [Automating Continuous Planning in SAFe](https://asankhaya.github.io/pdf/Automating-Continuous-Planning-in-SAFe.pdf), [RCoSE 2020](https://doi.org/10.1145/3387940.3391536) ([slides](/sapling-slides.pdf))
 - [The Dynamics of Software Composition Analysis](https://arxiv.org/abs/1909.00973), [ASE LBR 2019](https://2019.ase-conferences.org/track/ase-2019-Late-Breaking-Results) ([poster](https://asankhaya.github.io/pdf/The-Dynamics-of-Software-Composition-Analysis-Poster.pdf))
 - [Efficient Static Checking of Library Updates](https://asankhaya.github.io/pdf/Efficient-Static-Checking-of-Library-Updates.pdf), [FSE 2018](https://dl.acm.org/doi/10.1145/3236024.3275535) ([slides](/update-advisor-slides.pdf))
