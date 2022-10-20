@@ -1,9 +1,9 @@
 
 I'm a PhD student at the National University of Singapore.
 
-My primary research interests are programming languages and formal verification, currently of concurrent, distributed, and effectful programs.
-I also dabble in static analysis, logic/constraint/answer set programming.
+My primary research interests are programming languages and formal verification of distributed and effectful programs.
 My goal is to build better tools for developers and lower the barrier to engineering reliable software.
+<!-- I previously dabbled in static analysis and logic/answer set programming. -->
 
 <!--
 Separately, [game development](/other#games).
