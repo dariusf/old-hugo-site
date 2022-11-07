@@ -115,6 +115,9 @@ equations:
 - eq: '\mathit{Consistency} = \mathit{joy}'
   src: https://code.visualstudio.com/blogs/2022/05/18/dev-container-cli#_consistency-joy
   title: 'The dev container CLI'
+- eq: '\mathit{Genetic\ Algorithms} + \mathit{Neural\ Networks} = \mathit{Best\ of\ Both\ Worlds}'
+  src: https://towardsdatascience.com/gas-and-nns-6a41f1e8146d
+  title: 'Genetic Algorithms + Neural Networks = Best of Both Worlds'
 ---
 
 {{< equations eqs=.Params.equations >}}
