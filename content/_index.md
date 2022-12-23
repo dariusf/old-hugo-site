@@ -1,8 +1,12 @@
 
 I'm a PhD student at the National University of Singapore.
 
-My primary research interests are programming languages and formal verification of distributed and effectful programs.
-My goal is to build better tools for developers and lower the barrier to engineering reliable software.
+My research focuses on applying techniques from programming languages to the verification and testing of distributed systems.
+
+I am more generally interested in all aspects of programming languages and formal verification. My goal is to build better tools for developers and lower the barrier to engineering reliable software.
+
+<!-- making reasoning tractable -->
+
 <!-- I previously dabbled in static analysis and logic/answer set programming. -->
 
 <!--
