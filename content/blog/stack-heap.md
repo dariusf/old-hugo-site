@@ -16,7 +16,7 @@ It uses the OG constraint-based graphic design tool, GraphViz.
 
 First, a cons list.
 
-{{< image src="/images/stackheap1.svg" alt="cons list" class="diagram" >}}
+{{< image src="/images/stackheap1.svg" alt="cons list" class="theme-affected" >}}
 
 Heap objects are shown with classic box-and-pointer diagrams. This is for Java, so we may have null fields.
 
@@ -29,7 +29,7 @@ generate(heap=[a, b, c])
 
 Next, the stack.
 
-{{< image src="/images/stackheap2.svg" alt="stack which contains references to heap objects" class="diagram" >}}
+{{< image src="/images/stackheap2.svg" alt="stack which contains references to heap objects" class="theme-affected" >}}
 
 It's divided into named _frames_, each of which contains many local variables for a particular function call.
 We can show arrays too, and have arbitrary object graphs.
@@ -53,7 +53,7 @@ generate(stack=stack, heap=[v1, t1, a])
 
 We can also unhygienically embed arbitrary GraphViz strings, to do things like draw boxes around stuff (using a GraphViz `subgraph`, which has the side effect of also grouping everything inside).
 
-{{< image src="/images/stackheap3.svg" alt="metaspace with a box around it" class="diagram" >}}
+{{< image src="/images/stackheap3.svg" alt="metaspace with a box around it" class="theme-affected" >}}
 
 ```python
 bc = Obj(typ='Class', values={'x': 0}, ident='bc')

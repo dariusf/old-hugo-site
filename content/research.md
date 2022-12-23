@@ -15,7 +15,9 @@ weight = 2
 - [SGL: A DSL for large-scale analysis of open-source code](https://asankhaya.github.io/pdf/Security-Graph-Language.pdf), [SecDev 2018](https://doi.org/10.1109/SecDev.2018.00016) ([slides](/sgl-slides.pdf))
 - [Higher-Order Debugging and Logging for OCaml](https://github.com/dariusf/ppx_polyprint/raw/master/report.pdf), 2016 ([slides](https://github.com/dariusf/ppx_polyprint/raw/master/slides.pdf))
 
-[Google Scholar](https://scholar.google.com/citations?user=5x9STk4AAAAJ)
+[Semantic Scholar](https://www.semanticscholar.org/author/Darius-Foo/51510084), [Google Scholar](https://scholar.google.com/citations?user=5x9STk4AAAAJ)
+
+<!-- [DBLP](https://dblp.org/pid/228/5744.html) -->
 
 ## Teaching
 

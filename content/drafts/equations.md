@@ -118,6 +118,9 @@ equations:
 - eq: '\mathit{Genetic\ Algorithms} + \mathit{Neural\ Networks} = \mathit{Best\ of\ Both\ Worlds}'
   src: https://towardsdatascience.com/gas-and-nns-6a41f1e8146d
   title: 'Genetic Algorithms + Neural Networks = Best of Both Worlds'
+- eq: '\mathit{Profiling} = \mathit{Clustering} + \mathit{Synthesis}'
+  src: https://saswat.padhi.me/slides/phd_defense/#/8/0/0
+  title: 'Data-Driven Learning of Invariants and Specifications'
 ---
 
 {{< equations eqs=.Params.equations >}}
