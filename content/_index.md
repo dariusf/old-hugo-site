@@ -1,5 +1,5 @@
 
-I'm a PhD student at the National University of Singapore.
+I'm a PhD student in the [PLSE lab](https://nus-plse.github.io/) at NUS.
 
 My research focuses on applying techniques from programming languages to the verification and testing of distributed systems.
 
