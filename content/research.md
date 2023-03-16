@@ -21,11 +21,11 @@ weight = 2
 
 ## Teaching
 
-- [CS2102 Database Systems](https://nusmods.com/modules/CS2102/database-systems), 2020, 2022 ([slides](/slides/relational-algebra-sql))
-- [CS2103T Software Engineering](https://nus-cs2103-ay2122s2.github.io/website/), 2022
-- [CS2030S Programming Methodology II](https://nus-cs2030s.github.io/2021-s2/), 2021 <!--, ([slides](/slides/cs2030s)) -->
-- [CS3281/CS3282 Software Engineering in Live Projects](https://nus-cs3281.github.io/website/admin/callForApplications.html), 2016
-- [CS1101S Programming Methodology](https://www.comp.nus.edu.sg/~cs1101s/), 2013-2015
+- [CS2030S Programming Methodology II](https://nus-cs2030s.github.io/2021-s2/) (2021, 2023) <!--, ([slides](/slides/cs2030s)) -->
+- [CS2102 Database Systems](https://nusmods.com/modules/CS2102/database-systems) (2020, 2022; [slides](/slides/relational-algebra-sql))
+- [CS2103T Software Engineering](https://nus-cs2103-ay2122s2.github.io/website/) (2022)
+- [CS3281/CS3282 Software Engineering in Live Projects](https://nus-cs3281.github.io/website/admin/callForApplications.html) (2016)
+- [CS1101S Programming Methodology](https://www.comp.nus.edu.sg/~cs1101s/), (2013-2015)
 
 ## Service
 
