@@ -121,6 +121,31 @@ equations:
 - eq: '\mathit{Profiling} = \mathit{Clustering} + \mathit{Synthesis}'
   src: https://saswat.padhi.me/slides/phd_defense/#/8/0/0
   title: 'Data-Driven Learning of Invariants and Specifications'
+- eq: '\mathit{HOL} = \mathit{Functional\ Programming} + \mathit{Logic}'
+  src: https://isabelle.in.tum.de/doc/tutorial.pdf
+  title: 'A Proof Assistant for Higher-Order Logic'
+- eq: '\mathit{Lauschen} = \mathit{Hören} + \mathit{Fühlen}'
+  title: 'Lauschen = Hören + Fühlen ... Wie Du dein eigenes Lied empfängst'
+  src: https://www.youtube.com/watch?v=1WAYf2TtWys
+- eq: '\mathit{Code\ Review} = &\, \mathit{Discussion} + \mathit{Code} \\ \mathit{Pull\ Requests} = &\, \mathit{Compare\ View} + \mathit{Issue} + \mathit{Commit\ Comments}'
+  title: 'Pull Requests 2.0'
+  src: https://github.blog/2010-08-31-pull-requests-2-0/
+- eq: '\mathit{ocamldebug} + \mathit{Time} = \mathit{max_int}'
+  title: 'ocamldebug + Time = max_int'
+  src: https://github.com/ocaml/ocaml/issues/3397
+- eq: '\mathit{Grokking} = \mathit{Phase\ Changes} + \mathit{Regularisation} + \mathit{Limited\ Data}'
+  title: 'A Mechanistic Interpretability Analysis of Grokking'
+  src: https://www.lesswrong.com/posts/N6WM6hs7RQMKDhYjB/a-mechanistic-interpretability-analysis-of-grokking
+- eq: '\mathit{Posterior\ probability} = \mathit{prior\ probability} + \mathit{new\ evidence}'
+  title: 'Posterior Probability & the Posterior Distribution'
+  src: https://www.statisticshowto.com/posterior-distribution-probability
+- eq: '\mathit{Static\ Analysis} + \mathit{LLM} = \mathit{AutoFix}'
+  title: 'https://github.com/lambdasec/autofix'
+  src: 'AutoFix'
+- eq: '\mathit{Noninfluence} = \mathit{Noninterference} + \mathit{Nonleakage}'
+  title: 'https://link.springer.com/chapter/10.1007/978-3-540-30108-0_14'
+  src: 'Information Flow Control Revisited: Noninfluence = Noninterference + Nonleakage'
+
 ---
 
 {{< equations eqs=.Params.equations >}}
