@@ -10,7 +10,7 @@ weight = 3
 
 ## Talks
 
-- [Tracing OCaml Programs](/tracing-ocaml22-slides.pdf), [OCaml 2022](https://icfp22.sigplan.org/details/ocaml-2022-papers/2/Tracing-OCaml-Programs) ([video](https://youtu.be/MwVeZrDyewU), [abstract](/tracing-ocaml22.pdf))
+- [Tracing OCaml Programs](/tracing-ocaml22-slides.pdf), [OCaml 2022](https://icfp22.sigplan.org/details/ocaml-2022-papers/2/Tracing-OCaml-Programs) ([video](https://youtu.be/MwVeZrDyewU), [abstract](https://arxiv.org/abs/2304.04937))
 - [Answer Set Programming: Into the Multiverse](/slides/asp), 2020, Veracode
 
 ## Writing
