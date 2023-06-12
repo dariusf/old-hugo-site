@@ -12,6 +12,7 @@ weight = 3
 
 - [Tracing OCaml Programs](/tracing-ocaml22-slides.pdf), [OCaml 2022](https://icfp22.sigplan.org/details/ocaml-2022-papers/2/Tracing-OCaml-Programs) ([video](https://youtu.be/MwVeZrDyewU), [abstract](https://arxiv.org/abs/2304.04937))
 - [Answer Set Programming: Into the Multiverse](/slides/asp), 2020, Veracode
+- [Coding like a DJ](https://github.com/dariusf/sonicpi-workshop), 2023, BTC
 
 ## Writing
 
