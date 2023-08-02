@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Resume
-permalink: /resume/
-description: 'My resume'
+title: CV
+permalink: /cv/
+description: 'CV'
 ---
 
 <style>
@@ -43,7 +43,7 @@ also this floating bio penetrates the header boxes without a summary.
 probably not needed anyway since i'll probably want a much shorter, standalone resume for distribution in future.
 -->
 
-# Resume
+<!-- # CV -->
 
 ## Professional Experience
 
@@ -106,7 +106,7 @@ May 2013 &ndash; Aug 2013
 
 **BComp (Computer Science)**<br/>
 National University of Singapore<br/>
-2012 -- 2016
+2012 &ndash; 2016
 
 ## Skills
 

@@ -1,0 +1,27 @@
+{{ with .Page.Params.papers }} {{ range . }}
+<div style="font-weight: bold; margin-bottom: 2px">{{.title}}</div>
+<div style="font-size: 0.9em">
+  <span style="margin-right: 8px">
+    {{ if isset . "conflink" }}
+    <a href="{{.conflink}}">{{.conf}}</a>
+    {{ else }} {{.conf}}
+    <!-- <i>{{.conf}}</i> -->
+    {{ end }}
+  </span>
+  <!-- <br/> -->
+
+  {{ if isset . "video" }}
+  <a class="paper-item" href="{{.video}}">video</a>
+  {{ end }} {{ if isset . "slides" }}
+  <a class="paper-item" href="{{.slides}}">slides</a>
+  {{ end }} {{ if isset . "pdf" }}
+  <a class="paper-item" href="{{.pdf}}">pdf</a>
+  {{ end }} {{ if isset . "code" }}
+  <a class="paper-item" href="{{.code}}">code</a>
+  {{ end }} {{ if isset . "poster" }}
+  <a class="paper-item" href="{{.poster}}">poster</a>
+  {{ end }}
+</div>
+<div style="margin-bottom: 1.3em"></div>
+
+{{ end }} {{ end }}

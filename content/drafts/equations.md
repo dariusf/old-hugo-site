@@ -174,4 +174,4 @@ equations:
   src: 'https://www.youtube.com/watch?v=GnuscwYC1WI'
 ---
 
-{{< equations eqs=.Params.equations >}}
+{{< equations >}}
