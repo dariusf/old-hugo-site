@@ -2,7 +2,6 @@
 layout: post
 title: "Pretty stack-and-heap diagrams"
 date: 2021-02-07 00:13:31 +0800
-featured: true
 ---
 
 I'm teaching an introductory programming class this semester, which introduced students to the runtime stack and the heap in one of the early tutorials.
