@@ -1,5 +1,5 @@
 ---
-title: "Hacks for Zoom chat notifications"
+title: "Zoom chat notification hacks"
 date: 2021-12-02 17:25:08 +0800
 ---
 
