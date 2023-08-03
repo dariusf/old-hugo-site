@@ -6,8 +6,8 @@ papers:
 - title: Staged Specifications for Automated Verification of Higher-Order Imperative Programs
   conf: Under submission (2023)
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
+  pdf: https://arxiv.org/abs/2308.00988
   # conflink: a
-  # pdf: /cpluscal.pdf
   # video: a
   # slides: a
   # poster: a
