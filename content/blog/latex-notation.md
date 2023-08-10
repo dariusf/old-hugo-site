@@ -5,37 +5,14 @@ date: 2023-08-01 14:17:22 +0800
 # date: 2021-08-29 14:17:22 +0800
 ---
 
-<!-- Wrangling your LaTeX notation -->
+PL papers tend to use lots of [notation](https://www.jsoftware.com/papers/tot.htm).
+To manage this, paper sources usually include a "macros.tex" containing a slew of `\newcommand`s, defining wonderful languages of terms and naming all the clever judgments and syntactic sugar.
 
-PL papers tend to define lots of [notation](https://www.jsoftware.com/papers/tot.htm).
-To manage this, paper sources usually include a "macros.tex" containing a slew of `\newcommand`s, defining wonderful languages of terms and the names of all the clever judgments and relations.
+While notation can increase clarity, it can cause [difficulty](https://blog.sigplan.org/2020/09/29/pl-notation-is-a-barrier-to-entry/) to readers, who
+haven't had the hundreds of hours of practice the authors have had using and reading those intricate strings of symbols, and internalizing their precedences and meaning.
+Readers will forget what things denote and will have to scroll up and down repeatedly in a careful reading of the work.
 
-<!-- For this reason, -->
-
-<!-- The benefit of this is being able to express ideas succinctly and clearly. -->
-<!-- tower of abstractions on top of discrete math concepts so writing everything in type theory would be too much -->
-<!-- Consequently, -->
-
-<!-- Ē Ĕ Ë 𝔼 -->
-
-<!-- For authors, this is great. There is the benefit of seeing the paper in both explicit and typeset forms, leading to an even greater ability to pile on the abstraction. -->
-
-<!-- there is no problem, since they can see the source -->
-
-<!-- For readers, it can make the paper [impenetrable](https://blog.sigplan.org/2020/09/29/pl-notation-is-a-barrier-to-entry/). -->
-
-While notation can increase clarity, it can equally cause [difficulty](https://blog.sigplan.org/2020/09/29/pl-notation-is-a-barrier-to-entry/) to readers, who
-haven't had the hundreds of hours of practice the authors have had using and reading intricate strings of symbols, and internalizing their precedences and meaning.
-Readers will forget what things mean and will have to scroll up and down repeatedly in a careful reading of the work.
-
-<!-- while you can easily distinguish E from E from E by its long name, it may take a while before they can. -->
-
-<!-- Since we are stuck with LaTeX for the foreseeable future, to make your paper more accessible, consider helping them to this, by helping them jump to definition. -->
-<!-- here is a more compact and opinionated set of macros. -->
-
-In an attempt to alleviate this and make my work more accessible, I've been using a small set of macros to enable jump-to-definition for the important (as well as obscure) symbols:
-
-<!-- help readers -->
+In an attempt to alleviate this and make my work more accessible, I've been using a small set of macros to enable jump-to-definition for the important (and obscure) symbols:
 
 ```latex
 % somewhere above
@@ -49,24 +26,24 @@ In an attempt to alleviate this and make my work more accessible, I've been usin
   \expandafter\newcommand\csname #1Def\endcsname{\notationtarget{#1}{}}}
 ```
 
-The idea is essentially to link uses of notation to their definitions. For that, all that's really needed is to pepper `\hyperlink` and `\hypertarget` everywhere, and this is what people [already do](https://damaru2.github.io/general/notations_with_links/).
+The idea is essentially to link uses of notation to their definitions. All that's really needed for that is to pepper `\hyperlink` and `\hypertarget` everywhere, and this is what people [already do](https://damaru2.github.io/general/notations_with_links/).
 
-We can be a little more structured. First, for macros.tex aficionados, we'll use the command `\notation` to define a new symbol, so all the definitions can go in one place.
+We can be a little more structured. First, for macros.tex aficionados, we'll use the command `\notation` to define a new symbol, so all the definitions can go in one place. For example,
 
 ```latex
 \notation{trace}{\tau}
 ```
 
 This defines the command `\trace` as a macro for `\tau`.
-More importantly, it defines `\traceDef`, which is used to mark the definition site of this symbol, and which every occurrence of `\trace` unobtrusively links to.
+More importantly, it defines the paired command `\traceDef`, which is used to mark the definition site of this symbol, and which every occurrence of `\trace` unobtrusively links to.
 
-For example, you might have written:
+For example, having written this,
 
 ```latex
 A \emph{trace} $\trace$ is a sequence of states...
 ```
 
-To use this, simply include `\traceDef` nearby[^1]:
+simply include `\traceDef` nearby:
 
 ```latex
 A \traceDef\emph{trace} $\trace$ is a sequence of states...
@@ -74,17 +51,15 @@ A \traceDef\emph{trace} $\trace$ is a sequence of states...
 
 Subsequent uses of `\trace` (even the one right after) will now contain links back to this part of the paper.
 
-<!-- There are benefits for authors too. -->
 Doing this has benefits for authors too.
-The introduction of a new concept is now made explicit, which may help you consider if you're doing a "forward definition"; if you make this mistake anyway, the reader has some recourse.
-It can also help spot mistakes due to broken or missing links via compilation warnings.
+The introduction of a new concept is now made explicit, which may help you consider if you're doing a "forward definition";
+if you forget the definition, you get a compilation warning.
 Furthermore, paired with SyncTex, you can really zip around the paper.
-<!-- navigation around the paper is supercharged. -->
 
-For an example of this in action, I've annotated my most recent paper [here]().
+For an example of this in action, I've annotated my most recent paper [here](https://arxiv.org/abs/2308.00988).
 
 The amount of effort was very low for the value &ndash; it's very much pay-as-you-go, and easy to do while proofreading.
-To prioritize, focus on important notations first (which readers will frequently have to refer back to), then obscure ones, or those with a large distance to their definitions.
+To prioritize, focus on important notations first (which readers will frequently have to refer back to), then obscure ones or those with a large distance to their definitions.
 
 <!-- Of course, all this only helps if it goes on top of focused effort to simplify and standardize your notation. -->
 
@@ -94,7 +69,7 @@ To prioritize, focus on important notations first (which readers will frequently
 
 <details><summary>Why don't both commands take any parameters?</summary>
 
-For `\traceDef`, it's so it can be placed anywhere, alongside what is written. To continue the example from before:
+For `\traceDef`, it's so it can be placed anywhere, alongside what is written. To repeat the example from before:
 
 ```latex
 A \traceDef\emph{trace} $\trace$ is a sequence of states...
@@ -125,21 +100,20 @@ This way, which portion becomes a link is always well-defined, and there is no p
 </details>
 
 <details><summary>Could we instrument <code>\newcommand</code>?</summary>
-I briefly entertained the idea of instrumenting `\newcommand` to automate defining notations.
-However, `\newcommand` is used for all kinds of things, not just definitions.
+
+I briefly entertained the idea of instrumenting <code>\newcommand</code> to automate defining notations.
+However, <code>\newcommand</code> is used for all kinds of things, not just definitions.
 We would also have to handle the case of a command having parameters (see previous point).
 </details>
 
 <details><summary>Could we automatically link to the first use?</summary>
+
 An early version of this defined a command that redefined itself after the first time it was used, so subsequent uses would link back to the first one.
 This seemed like a nice idea, based on the assumption that "forward definitions" should be avoided.
 
 However, this can be fragile when used with figures, which may end up ordered before any given text on a page, and it is sometimes natural to defer a formal definition until after an intuitive use has been explained.
 
-The current simpler design, relying on manual annotation of the definition site, is hence more robust.
-</details>
-<details><summary>Could this be a package?</summary>
-This is deliberately not a package to keep it transparent. It's also tiny.
+The current simpler design, relying on manual annotation of the definition site, seems more robust.
 </details>
 
 # More use cases
@@ -158,7 +132,7 @@ You can instrument it so that it adds a link, and define another variant for int
 \newcommand{\defrulen}[1]{\notationtarget{#1}{\ensuremath{{\bf \scriptstyle #1}}}}
 ```
 
-If you have a mixfix judgment and want all the parts around the arguments to be be links, adding an extra `\notationlink` is the easiest way to achieve this.
+If you have a mixfix judgment and want all the parts around the arguments to be links, adding an extra `\notationlink` is the easiest way to achieve this.
 
 ```latex
 \notation{smodels}{\models}
