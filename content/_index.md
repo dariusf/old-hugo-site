@@ -26,6 +26,6 @@ Asp narrative generation
 
 On weekends, I sing with [The Crescendos](https://www.instagram.com/the_crescendos/) and [Acappella Anonymous](https://www.instagram.com/acappellaanonymous/).
 
----
+Contact me at darius.foo.tw@gmail.com.
 
-{{< social >}}
+<!-- {{< social >}} -->
