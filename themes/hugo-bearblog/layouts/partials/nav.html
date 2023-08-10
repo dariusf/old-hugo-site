@@ -1,0 +1,21 @@
+<!-- <a href="{{ "/" | relURL }}">About</a> -->
+
+<!-- {{ with .Site.GetPage "/blog" }}
+<a href="{{ "/blog" | relURL }}">Blog</a>
+  {{ if eq .Section "blog" }}
+  <- at this
+  {{ end }}
+{{ end }} -->
+
+
+{{ $currentPage := . }}
+
+{{ range .Site.Menus.main }}
+
+  {{ $active := "" }}
+  {{ if $currentPage.IsMenuCurrent "main" . }}
+    {{ $active = "menuactive" }}
+  {{ end }}
+
+  <a href="{{ .URL }}" class="{{ $active }}">{{ .Name }}</a>
+{{ end }}

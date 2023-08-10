@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ if or (eq .Type "blog") (eq .Type "drafts") }}{{ if not .Params.menu }}
+<h1>{{ .Title }}</h1>
+<div>
+    <time class="blog-timestamp" datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+    </time>
+</div>
+{{ end }}{{ end }}
+{{ if .Params.toc }}
+  {{ .TableOfContents }}
+{{ end }}
+<div {{ if or (eq .Type "blog") (eq .Type "drafts") }} class="blog-content" {{end}}>
+  {{ .Content }}
+</div>
+<p>
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+{{ end }}
