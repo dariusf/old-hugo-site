@@ -94,13 +94,11 @@ To prioritize, focus on important notations first (which readers will frequently
 
 <details><summary>Why don't both commands take any parameters?</summary>
 
-For `\traceDef`, it's so you can place it anywhere, alongside what you already write. To continue the example from before:
+For `\traceDef`, it's so it can be placed anywhere, alongside what is written. To continue the example from before:
 
 ```latex
 A \traceDef\emph{trace} $\trace$ is a sequence of states...
 ```
-
-Anchoring the definition to a specific word, e.g. `\traceDef{\emph{trace}}`, isn't much of an improvement. Also, the way in which notation is introduced is highly varied[^1], so further structure seems counterproductive.
 
 On the other hand, `\trace` taking no argument may seem like a deficiency: how should we replace a `\newcommand` with parameters?
 
@@ -167,6 +165,22 @@ If you have a mixfix judgment and want all the parts around the arguments to be 
 \newcommand*{\bigstep}[3]{#1\smodels #2 \notationlink{smodels}{\leadsto} #3}
 ```
 
+
+<!--
+
+[^2]: [This paper](https://arxiv.org/abs/2006.11639) is an example in the wild where the authors underline newly-introduced terms.
+
+Anchoring the definition to a specific word could also be done. A common convention is to italicise words, so authors could define:
+
+```latex
+\newcommand*{\firstuse}[1]{%
+  \traceDef\emph{}}
+```
+
+it seems better not to make that choice and leave it to authors to define in a derived macro.
+
+, e.g. `\traceDef{\emph{trace}}`, isn't much of an improvement. Also, the way in which notation is introduced is highly varied[^1][^2], so further structure seems counterproductive.
+
 [^1]: One could further codify this convention of italicising introduced terms:
 
     ```latex
@@ -174,10 +188,7 @@ If you have a mixfix judgment and want all the parts around the arguments to be 
       \expandafter{\csname #1Def\endcsname}\emph{#1} \ensuremath{\csname #1\endcsname}}
     ```
     
-    but in practice it's not often that the command name, the typeset content, and the way in which the symbol is introduced all coincide.
-
-<!--
-
+    though in practice it's not often that the command name, the typeset content, and the way in which the symbol is introduced all coincide.
 
 Not everything is introduced in a formal definition. Stuff implicitly like in a grammar saying x is a var without any other notation than just writing the nonterminal
 
