@@ -165,7 +165,7 @@ The [Strasheela thesis](https://strasheela.sourceforge.net/documents/TorstenAnde
 Pitch is represented by bounded integer variables.
 
 $$
-\mathit{pitch}_p \equiv \\{\\, \rho_i \mid min_p \le \rho_i \le max_p,\\, 0 \le i < n \\,\\},\\, p \in \\{\\,S, A, T, B\\,\\}
+\mathit{pitch}_p \equiv \{\, \rho_i \mid min_p \le \rho_i \le max_p,\, 0 \le i < n \,\},\, p \in \{\,S, A, T, B\,\}
 $$
 
 Rhythm is represented by duration variables.
@@ -173,7 +173,7 @@ Each note and chord has a duration, whose _start_ is represented as an offset fr
 The first duration has value 0, the last is strictly smaller than the total duration of the piece, and the sequences of durations within a part are monotonically increasing.
 
 $$
-\mathit{rhythm}_p \equiv \\{\\, d_i \mid d_0 = 0,\\, d_0 < d_1 < ... < d_n < d_t,\\, 0 \le i < n \\}
+\mathit{rhythm}_p \equiv \{\, d_i \mid d_0 = 0,\, d_0 < d_1 < ... < d_n < d_t,\, 0 \le i < n \}
 $$
 
 Chords are treated the same way, with a duration and pitch (class).
@@ -182,7 +182,7 @@ Ties and measures are not represented and are treated as a rendering concern.
 Whether a note is a rest is represented by a boolean variable, which causes the pitch value to be ignored iff it is true.
 
 $$
-\mathit{rests}_p \equiv \\{\\, r_i \mid 0 \le i < n \\}
+\mathit{rests}_p \equiv \{\, r_i \mid 0 \le i < n \}
 $$
 
 Next, melody and harmony.

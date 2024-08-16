@@ -6,8 +6,8 @@ math: true
 
 $\gdef\kwproj{\mathbin{\upharpoonright}}$
 $\gdef\gall#1#2#3{\forall #1 : #2 \cdot #3}$
-$\gdef\galls#1#2#3#4{\forall #1 : #2\setminus #3 \cdot #4}$
-$\gdef\galle#1#2#3#4{\forall #1 : #2\setminus \\{#3\\} \cdot #4}$
+$\gdef\galls#1#2#3#4{\forall #1 : #2 \setminus #3 \cdot #4}$
+$\gdef\galle#1#2#3#4{\forall #1 : #2 \setminus \{#3\} \cdot #4}$
 $\gdef\gtransmit#1#2#3{#1 \to #2:#3}$
 $\gdef\kwpar{\mathrel{||}}$
 $\gdef\spar#1#2{#1 \kwpar #2}$
@@ -178,19 +178,19 @@ Let's walk through an example.
 <!-- </summary> -->
 
 $$\begin{array}{rll}
-& \gall{x}{C}{\galle{y}{C}{x}{\gtransmit{x}{y}{m}}} \kwproj z & (1) \\\\
-= & (\galle{y}{C}{z}{\gtransmit{z}{y}{m}} \kwproj z) & (2) \\\\
-& \quad \kwpar (\galle{x}{C}{z}{\galle{y}{C}{x}{\gtransmit{x}{y}{m}}} \kwproj z) \\\\
-= & (\galle{y}{C}{z}{(\gtransmit{z}{y}{m} \kwproj z)}) & (3) \\\\
-& \quad \kwpar (\galle{x}{C}{z}{(\galle{y}{C}{x}{\gtransmit{x}{y}{m}} \kwproj z)}) \\\\
-= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (4) \\\\
-& \quad \kwpar (\galle{x}{C}{z}{(\gtransmit{x}{z}{m} \kwproj z} \\\\
-& \qquad \kwpar (\galle{y}{C}{z,x}{\gtransmit{x}{y}{m}} \kwproj z))) \\\\
-= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (5) \\\\
-& \quad \kwpar (\galle{x}{C}{z}{(\lrecv{x}} \\\\
-& \qquad \kwpar (\galle{y}{C}{z,x}{(\gtransmit{x}{y}{m} \kwproj z)}))) \\\\
-= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (6) \\\\
-& \quad \kwpar (\galle{x}{C}{z}{\lrecv{x}}) \\\\
+& \gall{x}{C}{\galle{y}{C}{x}{\gtransmit{x}{y}{m}}} \kwproj z & (1) \\
+= & (\galle{y}{C}{z}{\gtransmit{z}{y}{m}} \kwproj z) & (2) \\
+& \quad \kwpar (\galle{x}{C}{z}{\galle{y}{C}{x}{\gtransmit{x}{y}{m}}} \kwproj z) \\
+= & (\galle{y}{C}{z}{(\gtransmit{z}{y}{m} \kwproj z)}) & (3) \\
+& \quad \kwpar (\galle{x}{C}{z}{(\galle{y}{C}{x}{\gtransmit{x}{y}{m}} \kwproj z)}) \\
+= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (4) \\
+& \quad \kwpar (\galle{x}{C}{z}{(\gtransmit{x}{z}{m} \kwproj z} \\
+& \qquad \kwpar (\galle{y}{C}{z,x}{\gtransmit{x}{y}{m}} \kwproj z))) \\
+= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (5) \\
+& \quad \kwpar (\galle{x}{C}{z}{(\lrecv{x}} \\
+& \qquad \kwpar (\galle{y}{C}{z,x}{(\gtransmit{x}{y}{m} \kwproj z)}))) \\
+= & (\galle{y}{C}{z}{\lsend{y}{m}}) & (6) \\
+& \quad \kwpar (\galle{x}{C}{z}{\lrecv{x}}) \\
 \end{array}$$
 
 

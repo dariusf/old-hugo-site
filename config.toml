@@ -70,6 +70,11 @@ ignoreErrors = ["error-disable-taxonomy"]
   
   [markup.goldmark.extensions]
     typographer = false
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['$', '$']]
 
 [blog]
   # Name = "Home"
