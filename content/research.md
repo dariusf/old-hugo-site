@@ -6,7 +6,7 @@ papers:
 - title: Staged Specification Logic for Verifying Higher-Order Imperative Programs
   conf: FM 2024
   code: https://github.com/songyahui/AlgebraicEffect/tree/fm24
-  pdf: https://github.com/hipsleek/Heifer/blob/StagedSL/docs/FM2024_TR.pdf
+  pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/FM2024_TR.pdf
   conflink: https://www.fm24.polimi.it/?page_id=612
   # video: a
   # slides: a
@@ -15,7 +15,7 @@ papers:
   conf: ICFP 2024
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
   conflink: https://icfp24.sigplan.org/track/icfp-2024-papers
-  pdf: https://github.com/hipsleek/Heifer/blob/StagedSL/docs/ICFP2024_TR.pdf
+  pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/ICFP2024_TR.pdf
   # video: a
   # slides: a
   # poster: a
