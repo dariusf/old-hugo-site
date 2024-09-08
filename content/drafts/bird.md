@@ -19,3 +19,15 @@ The UI is quite unfinished, and due to the punishing difficulty, collision is cu
 <!-- I haven't worked on it for a while so I decided to publish it. -->
 
 Try it out [here](https://dariusf.github.io/satb-bird/).
+
+
+
+
+Satb bird is a game. I would have called it flappy lips
+
+The objective is to guide a small flapping ring through pipes. By blowing air, along a musical landscape
+Link to vocal cords
+
+https://youtu.be/3j92lXSwJHY
+
+Well now you can do that on screen as well!
