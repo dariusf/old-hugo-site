@@ -16,7 +16,7 @@ papers:
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
   conflink: https://icfp24.sigplan.org/track/icfp-2024-papers
   pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/ICFP2024_TR.pdf
-  # video: a
+  video: https://youtu.be/F70QZaMoYJQ?t=21565
   # slides: a
   # poster: a
 - title: Protocol Conformance with Choreographic PlusCal
