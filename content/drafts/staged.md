@@ -32,9 +32,28 @@ Programs written in mainstream languages today are rife with *effectful higher-o
 functions which take other functions as arguments, where these arguments may use primitive side effects, such as state, exceptions, or algebraic effects.
 
 In everyday programming, it is not unusual to do things like
-use state in a closure to avoid traversing a list twice,
-or use a continuation to return solutions when backtracking, and allow the continuation to throw an exception to end the search efficiently.
-Using a modern I/O library makes effects pervasive.
+use state in a closure to avoid traversing a list twice:
+
+```ocaml
+(* count the number of elements folded *)
+let count = ref 0 in
+foldr (fun c t -> incr count; c+t) xs 0
+```
+
+or use a continuation to return solutions when backtracking, and allow the continuation to throw an exception to end the search efficiently:
+
+```ocaml
+let stop = raise Stop
+let rec search x k =
+  try
+    if found then k answer
+    (* ... keep searching *)
+  with Stop -> ()
+in
+let result = search xs (fun answer -> if good answer then stop ())
+```
+
+Using a [modern I/O library](https://github.com/ocaml-multicore/picos#why) also makes effects pervasive.
 
 Reasoning about such functions does not seem particularly difficult - we certainly do it informally every time we write such programs!
 However, verifier support for such functions varies greatly:
@@ -107,7 +126,7 @@ The [Iris tutorial](https://iris-project.org/tutorial-pdfs/iris-lecture-notes.pd
 
 > Different clients may instantiate foldr with some very different functions, hence it can be hard to give a specification for f that is reasonable and general enough to support all these choices.
 
-The problem is that due to the use of abstract properties, this specification *commits prematurely* to a *summary* or *abstraction* of $f$'s behavior.
+The problem is that due to the use of abstract properties, this specification *commits (somewhat prematurely)* to a *summary* or *abstraction* of $f$'s behavior.
 Due to the undue strengthening of the precondition of $\foldr$, *precision* is lost.
 This leads to the symptom that the abstraction may not be precise enough for a given client.
 
@@ -141,6 +160,8 @@ let foldr_ex2 l = foldr (fun x r -> assert(x+r>=0); x+r) l 0
 Again, because we committed to a parameterization,
 we can't use $P$ to strengthen the precondition of $f$,
 as $P$ only constrains individual elements and cannot be used to talk about the suffixes of the list.
+
+We need a property concerning the whole list.
 
 ## Example 3: effects outside metalogic
 
