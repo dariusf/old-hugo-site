@@ -11,6 +11,7 @@ papers:
   # video: a
   # slides: a
   # poster: a
+  # transcript: a
 - title: Specification and Verification for Unrestricted Algebraic Effects and Handling
   conf: ICFP 2024
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
@@ -19,6 +20,7 @@ papers:
   video: https://youtu.be/F70QZaMoYJQ?t=21565
   # slides: a
   # poster: a
+  # transcript: a
 - title: Protocol Conformance with Choreographic PlusCal
   conf: TASE 2023
   conflink: https://plrg-bristol.github.io/tase2023/accepted-papers.html
@@ -27,6 +29,7 @@ papers:
   # slides: a
   # video: a
   # poster: a
+  # transcript: a
 - title: Automated Temporal Verification for Algebraic Effects
   conf: APLAS 2022
   conflink: https://conf.researchr.org/program/aplas-2022/program-aplas-2022/
@@ -35,6 +38,7 @@ papers:
   video: https://www.youtube.com/watch?v=gAl6TP-gBYQ
   slides: https://www.comp.nus.edu.sg/~yahuis/APLAS22_Effects_my.pdf
   # poster: a
+  # transcript: a
 - title: Tracing OCaml Programs
   conf: OCaml 2022
   conflink: https://icfp22.sigplan.org/details/ocaml-2022-papers/2/Tracing-OCaml-Programs
@@ -43,6 +47,7 @@ papers:
   video: https://youtu.be/MwVeZrDyewU
   slides: /tracing-ocaml22-slides.pdf
   # poster: a
+  # transcript: a
 - title: Automating Continuous Planning in SAFe
   conf: RCoSE 2020
   conflink: https://doi.org/10.1145/3387940.3391536
@@ -51,6 +56,7 @@ papers:
   slides: /sapling-slides.pdf
   poster: a
   # video: a
+  # transcript: a
 - title: The Dynamics of Software Composition Analysis
   conf: ASE LBR 2019
   conflink: https://2019.ase-conferences.org/track/ase-2019-Late-Breaking-Results
@@ -59,6 +65,7 @@ papers:
   # code: a
   # video: a
   # slides: a
+  # transcript: a
 - title: Efficient Static Checking of Library Updates
   conf: FSE 2018
   conflink: https://dl.acm.org/doi/10.1145/3236024.3275535
@@ -67,6 +74,7 @@ papers:
   # code: a
   # video: a
   # poster: a
+  # transcript: a
 - title: "SGL: A DSL for large-scale analysis of open-source code"
   conf: SecDev 2018
   conflink: https://doi.org/10.1109/SecDev.2018.00016
@@ -75,6 +83,7 @@ papers:
   # code: a
   # video: a
   # poster: a
+  # transcript: a
 - title: Higher-Order Debugging and Logging for OCaml
   conf: Undergraduate thesis (2016)
   code: https://github.com/dariusf/ppx_polyprint
@@ -82,6 +91,7 @@ papers:
   pdf: https://github.com/dariusf/ppx_polyprint/raw/master/report.pdf
   # video: a
   # poster: a
+  # transcript: a
 ---
 
 <!-- # Research -->
