@@ -8,17 +8,17 @@ papers:
   code: https://github.com/songyahui/AlgebraicEffect/tree/fm24
   pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/FM2024_TR.pdf
   conflink: https://www.fm24.polimi.it/?page_id=612
+  slides: /fm24slides.pdf
+  transcript: /staged
   # video: a
-  # slides: a
   # poster: a
-  # transcript: a
 - title: Specification and Verification for Unrestricted Algebraic Effects and Handling
   conf: ICFP 2024
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
   conflink: https://icfp24.sigplan.org/track/icfp-2024-papers
   pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/ICFP2024_TR.pdf
   video: https://youtu.be/F70QZaMoYJQ?t=21565
-  # slides: a
+  slides: https://www.comp.nus.edu.sg/~yahuis/ICFP24/ICFP24_Slides.pdf
   # poster: a
   # transcript: a
 - title: Protocol Conformance with Choreographic PlusCal
