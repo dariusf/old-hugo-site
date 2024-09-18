@@ -4,7 +4,7 @@ date: 2023-12-31 11:15:45 +0800
 math: false
 ---
 
-Choreographic PlusCal is a new specification language for distributed protocols.
+Choreographic PlusCal is a refinement of PlusCal with features for specifying distributed protocols.
 
 ```c
 choreography

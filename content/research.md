@@ -26,7 +26,7 @@ papers:
   conflink: https://plrg-bristol.github.io/tase2023/accepted-papers.html
   code: https://github.com/dariusf/tlaplus/tree/cpcal
   pdf: /cpluscal.pdf
-  # slides: a
+  slides: /TASE2023-CPlusCal.pdf
   # video: a
   # poster: a
   # transcript: a
