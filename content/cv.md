@@ -53,6 +53,8 @@ probably not needed anyway since i'll probably want a much shorter, standalone r
 Aug 2020 &ndash; Present
 
 - Started my PhD!
+- [Dean's Graduate Research Excellence Award](https://credentials.nus.edu.sg/fe91d96a-f39e-4fe6-b34f-28411ce1d108), [AY 2023/2024](https://www.comp.nus.edu.sg/programmes/pg/awards/deans-research/\#:\~:text=Darius\%20Foo\%20Tsien\%20Wei)
+
 
 <p class="company">SourceClear (and, by acquisition, Veracode)</p>
 <p class="position">Senior Software Engineer</p>
