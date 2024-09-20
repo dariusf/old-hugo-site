@@ -9,7 +9,7 @@ papers:
   pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/FM2024_TR.pdf
   conflink: https://www.fm24.polimi.it/?page_id=612
   slides: /fm24slides.pdf
-  transcript: /staged
+  transcript: /staged-logic
   # video: a
   # poster: a
 - title: Specification and Verification for Unrestricted Algebraic Effects and Handling
