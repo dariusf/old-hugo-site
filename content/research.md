@@ -10,6 +10,7 @@ papers:
   conflink: https://www.fm24.polimi.it/?page_id=612
   slides: /fm24slides.pdf
   transcript: /staged-logic
+  formalization: https://github.com/dariusf/staged
   # video: a
   # poster: a
 - title: Specification and Verification for Unrestricted Algebraic Effects and Handling
