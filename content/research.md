@@ -55,7 +55,7 @@ papers:
   code: https://github.com/srcclr/sapling
   pdf: https://asankhaya.github.io/pdf/Automating-Continuous-Planning-in-SAFe.pdf
   slides: /sapling-slides.pdf
-  poster: a
+  # poster: a
   # video: a
   # transcript: a
 - title: The Dynamics of Software Composition Analysis
