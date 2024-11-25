@@ -18,7 +18,8 @@ papers:
   code: https://github.com/songyahui/AlgebraicEffect/tree/StagedSL
   conflink: https://icfp24.sigplan.org/track/icfp-2024-papers
   pdf: https://raw.githubusercontent.com/hipsleek/Heifer/StagedSL/docs/ICFP2024_TR.pdf
-  video: https://youtu.be/F70QZaMoYJQ?t=21565
+  #video: https://youtu.be/F70QZaMoYJQ?t=21565
+  video: https://www.youtube.com/watch?v=m4u1wHf74s8
   slides: https://www.comp.nus.edu.sg/~yahuis/ICFP24/ICFP24_Slides.pdf
   # poster: a
   # transcript: a
