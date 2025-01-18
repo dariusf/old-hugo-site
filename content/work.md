@@ -28,6 +28,7 @@ Most of my work can be found on [my GitHub profile](https://www.github.com/dariu
 
 - [Answer Set Programming: Into the Multiverse](/slides/asp), 2020, Veracode
 - [Coding like a DJ](https://github.com/dariusf/sonicpi-workshop), 2023, BTC
+- [Mechanising Staged Logic](/MechanizingStagedLogic.pdf), 2024, [SG PL Summit](https://verse-lab.github.io/sg-pl-summit/)
 
 ## Writing
 
