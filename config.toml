@@ -1,5 +1,5 @@
 
-baseURL = "https://dariusf.github.io"
+baseURL = "https://dariusf.github.io/old-hugo-site"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
